@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <title>Заголовок страницы</title>
+ <meta charset="UTF-8">
+ <meta name="description" content="Описание страницы которое должно содержать в среднем от 130 - 160 символов.">
+ <meta name="keywords" content="Ключевые слова, не больше дюжины, через запятую">
+ <meta property="og:title" content="Название вашего объекта, как он должен отображаться в графе">
+ <meta property="og:type" content="website">
+ <meta proprety="og:url" content="URL-адрес объекта, который будет использоваться в качестве его постоянного ID в графе">
+ <meta property="og:image" content="URL-адрес изображения, который должен определить Ваш объект в графе для изображения.">
+ <meta property="og:site_name" content="Site.com">
+ <meta property="og:description" content="Описание страницы которое должно содержать в среднем от 130 - 160 символов.">
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+</head>
+<body class="page-body">
+ <section class="page-hero">
+  <header class="page-header">
+    <div class="page-header__inner">
+      <a href="#" class="logo page-header__logo"></a>
+      <nav class="page-header-nav">
+        <ul class="list page-header-list">
+          <li class="page-header-list__item page-header-list__item_selected">
+            <a class="page-header-list__link" href="#">Студия</a>
+          </li>
+          <li class="page-header-list__item">
+            <a class="page-header-list__link" href="#">Клиент</a>
+          </li>
+          <li class="page-header-list__item">
+            <a class="page-header-list__link" href="#">Магазин</a>
+          </li>
+          <li class="page-header-list__item">
+            <a class="page-header-list__link" href="#">Контакты</a>
+          </li>
+          <li class="page-header-list__item page-header-list__item_pos_last page-header-list__item-cart">
+            <a class="page-header-list__link" href="#">Корзина</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+      <h1 class="page-hero__heading">Добро пожаловать в магазин<br>готовых макетов!</h1>
+</section>
+<article class="page-section">
+  <div class="page-section__inner">
+   <div class="page-section__grid">
+      <aside class="sidebar">
+        <form action="#" method="get" class="catalog-filter">
+          <fieldset class="filter-field filter-price">
+            <legend class="filter-title">Стоимость:</legend>
+            <div class="range-control range-control_theme_nerds">
+              <div class="rage-control__scale">
+                <div class="rage-control__bar"></div>
+              </div>
+              <div class="rage-control__toggle range-control__togle_min"></div>
+              <div class="rage-control__toggle range-control__togle_max"></div>
+            </div>
+            <div class="price-control">
+             <div class="price-control__grid_half">
+               <label class="price-control__label" for="price-control__value_min">От</label>
+               <input id="price-control__value_min" class="price-control__value" type="text" value="0">
+             </div>
+             <div class="price-control__grid_half">
+              <label class="price-control__label" for="price-control__value_max">До</label>
+              <input id="price-control__value_max" class="price-control__value" type="text" value="15 000">
+            </div>
+            </div>
+          </fieldset>
+          <fieldset class="filter-field filter-grid">
+            <legend class="filter-title">Сетка:</legend>
+            <div class="radio-group">
+  <div class="radio-group__block">
+    <label class="radio radio_theme_sky radio_size_l">
+      <input class="radio__control" type="radio" name="radio" checked>
+      <span class="radio__box">
+<svg class="radio__tick" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3"></circle></svg>
+</span>
+      <span class="radio__label">Адаптивная</span>
+    </label>
+  </div>
+  <div class="radio-group__block">
+    <label class="radio radio_theme_sky radio_size_l">
+      <input class="radio__control" type="radio" name="radio">
+      <span class="radio__box">
+      <svg class="radio__tick" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3"></circle></svg>
+      </span>
+      <span class="radio__label">Фиксированная</span>
+    </label>
+  </div>
+  <div class="radio-group__block">
+    <label class="radio radio_theme_sky radio_size_l">
+      <input class="radio__control" name="radio" type="radio">
+      <span class="radio__box">
+        <svg class="radio__tick" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3"></circle></svg>
+      </span>
+      <span class="radio__label">Резиновая</span>
+    </label>
+  </div>
+  </div>
+          </fieldset>
+          <fieldset class="filter-field filter-features">
+            <legend class="filter-title">Особенности:</legend>
+            <div class="checkbox-group">
+<div class="checkbox-group__block">
+<label class="checkbox checkbox_theme_sky checkbox_size_l">
+<input class="checkbox__control" type="checkbox" name="checkbox" checked>
+<span class="checkbox__box">
+<svg class="checkbox__tick" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "></polyline>
+</svg>
+</span>
+<span class="checkbox__label">Слайдер</span>
+</label>
+</div>
+<div class="checkbox-group__block">
+<label class="checkbox checkbox_theme_sky checkbox_size_l">
+<input class="checkbox__control" type="checkbox" name="checkbox">
+<span class="checkbox__box">
+<svg class="checkbox__tick" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "></polyline>
+</svg>
+</span>
+<span class="checkbox__label">Блок преимуществ</span>
+</label>
+</div>
+<div class="checkbox-group__block">
+<label class="checkbox checkbox_theme_sky checkbox_size_l">
+<input class="checkbox__control" type="checkbox" name="checkbox" checked>
+<span class="checkbox__box">
+<svg class="checkbox__tick" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "></polyline>
+</svg>
+</span>
+<span class="checkbox__label">Новости</span>
+</label>
+</div>
+<div class="checkbox-group__block">
+<label class="checkbox checkbox_theme_sky checkbox_size_l">
+<input class="checkbox__control" type="checkbox" name="checkbox">
+<span class="checkbox__box">
+<svg class="checkbox__tick" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "></polyline>
+</svg>
+</span>
+<span class="checkbox__label">Галерея</span>
+</label>
+</div>
+<div class="checkbox-group__block">
+<label class="checkbox checkbox_theme_sky checkbox_size_l">
+<input class="checkbox__control" type="checkbox" name="checkbox">
+<span class="checkbox__box">
+<svg class="checkbox__tick" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "></polyline>
+</svg>
+</span>
+<span class="checkbox__label">Корзина</span>
+</label>
+</div>
+</div>
+          </fieldset>
+          <a href="#" class="btn btn_theme_nerds">Показать</a>
+        </form>
+      </aside>
+      <section class="main">
+        <div class="sorting">
+          <span class="sorting-title">Сортировать:</span>
+          <ul class="sorting-list list">
+            <li class="sorting-list__item">
+              <a href="#" class="sorting-list__link">По цене</a>
+            </li>
+            <li class="sorting-list__item">
+              <a href="#" class="sorting-list__link">По типу</a>
+            </li>
+            <li class="sorting-list__item">
+              <a href="#" class="sorting-list__link">По функциональности</a>
+            </li>
+            <li class="sorting-list__item">
+              <a href="#" class="sorting-list__link">⇪</a>
+            </li>
+            <li class="sorting-list__item">
+              <a href="#" class="sorting-list__link sorting-list__link_pos_last">⇩</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+</body>
+</html>
